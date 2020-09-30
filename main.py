@@ -1,5 +1,5 @@
-import requests
-from bs4 import BeautifulSoup
+import requests   # pip install requests
+from bs4 import BeautifulSoup   # pip install bs4
 
 req = requests.get('https://www.bewakoof.com/desi-collection')
 #print(req.status_code)
